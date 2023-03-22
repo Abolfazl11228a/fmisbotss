@@ -1,0 +1,470 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+
+    background: #00163d;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    user-select: none;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: IRANSANSDN;
+    font-weight: 700;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+    user-select: none;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    font-family: lalezar;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    user-select: none;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+    user-select: none;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 8px;
+    background: #121b22;
+    user-select: none;
+    border-radius: 7px;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+    user-select: none;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background:  #0d1116;  
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: IRANSANSDN;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+        user-select: none;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+h2{
+    font-family: lalezar;
+    font-size: 60;
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    text-align: center;
+    user-select: none;
+    height: 7px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+@font-face {
+    font-family: lalezar;
+    font-style: normal;
+    font-weight: 950;
+    src: url('../fonts/Lalezar.ttf') format('truetype'),
+         url("../fonts/Lalezar.woff") format('woff');
+    }
+    body {
+  direction: rtl;
+  user-select: none;
+   }
+
+   .container{
+    position: relative;
+    margin-right: auto;
+    width: 100%;
+    color: white;
+    margin-top: 24px;
+   }
+
+.container .text{
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container .text.first-text{
+    color: white;
+    font-size: 40px;
+}
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color:  #121b22;
+    border-right: 5px solid white;
+    animation: animate 5s steps(12) infinite;
+    margin-top: 0px;
+}
+@keyframes animate{
+    40%, 60%{
+        right: 100%;
+        width: 0%;
+    }
+    100%{
+        right: 0%;
+        width: 100%;
+    }
+}
+
+
+@font-face {
+    font-family: IRANSANSDN;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/IRANSANSDN.TTF") format("truetype")
+}
+
+p {
+    line-height: 2;
+    color: white;
+    font-size: 19px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+}
+
+div {
+    text-align: justify;
+}
+
+.cetered-title{
+width: 100%;
+text-align: center;
+color: white;
+margin-bottom: 33.3333px;
+margin-top: 37.3311px;
+font-size: 40px;
+}
+
+h8,
+h9,
+h10,
+h11 {
+font-family: IRANSANSDN;
+font-size: 14px;
+direction: rtl;
+list-style-image: none;
+list-style-position: outside;
+color: white;
+font-weight: 500;
+}
+
+.cetered-title2{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 34.3333px;
+    margin-top: 36.3311px;
+    font-size: 40px;
+}
+p3{
+    font-family: lalezar;
+    position: relative;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+p4{
+    color: #ffffff;
+    line-height: 2;
+    font-size: 16px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+}
+
+@font-face {
+    font-family: IRANSANSDN;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/IRANSANSDN.TTF") format("truetype")
+}
+
+footer{
+    width: 105%;
+    margin: -8px;
+}
+.navbar{
+    background: #00163d;
+    margin-top: -24px;
+}
+.row2{ 
+       position: fixed;  
+       top: 0;    
+       z-index: 5; 
+       width: 100vw; 
+       height: 50px;   
+} 
+h14{
+    font-size: 23px;
+    font-family: lalezar;
+    left: 0;
+    color: white;
+}   
+#rr{
+    margin-top: -3px;
+}
+
+@media screen and (min-width:720px){
+    .con{
+        display:none;
+    }
+
+    .alert-txt{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    }
+}
+
+p8{
+    margin-top: -5px;
+    line-height: 2;
+    color: white;
+    font-size: 19px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.3px;
+}
+p9{
+    line-height: 2;
+    color: white;
+    font-size: 138%;
+    font-family: bold,IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1.6px;
+}
+
+h18{
+    user-select: none;
+    width: 100%;
+    font-size: 28px;
+    font-family: lalezar;
+    top: 30px;
+    float: right;
+    right: auto;
+}
+
+.br2{
+    margin-bottom: 40px;
+}
+
+img{
+    border-radius: 30px;
+    margin: 25px ;
+   user-select: none;
+}
+
+.alert-txto{
+    user-select: none;
+    font-size: 21px;
+    font-family: bold,IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -1px;
+    line-height: 2;
+    margin-top: -5px;
+}
+
+p15{
+    color: #ffffff;
+    line-height: 2;
+    font-size: 15px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -0.8px;
+    width: 200px;
+    margin: 48px; 
+    margin-top: -2px;
+}
+
+p20{
+    line-height: 2;
+    font-size: 16px;
+    font-family: IRANSANSDN;
+    direction: rtl;
+    letter-spacing: -0.8px;
+}
+
+.cutmain2{
+    background-color: #0d1116;
+    padding: 10px 0;
+    width: 105%;
+    margin: -8px;
+    -webkit-transform: skew(0deg, -3deg);
+    -moz-transform: skew(0deg, -3deg);
+    -ms-transform: skew(0deg, -3deg);
+    -o-transform: skew(0deg, -3deg);
+    transform: skew(0deg, -3deg);
+    margin-top: -20px;
+}
+
+.cutmain3{
+    background-color: #0d1116;
+    padding: 0px 0;
+    width: 105%;
+    margin: -8px;
+    -webkit-transform: skew(0deg, -3deg);
+    -moz-transform: skew(0deg, -3deg);
+    -ms-transform: skew(0deg, -3deg);
+    -o-transform: skew(0deg, -3deg);
+    transform: skew(0deg, -3deg);
+    margin-top: -30px;
+}
