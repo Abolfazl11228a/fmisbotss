@@ -362,18 +362,6 @@ h14{
     margin-top: -3px;
 }
 
-@media screen and (min-width:720px){
-    .con{
-        display:none;
-    }
-
-    .alert-txt{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform:translate(-50%,-50%);
-    }
-}
 
 p8{
     margin-top: -5px;
